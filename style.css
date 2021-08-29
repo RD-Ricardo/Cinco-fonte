@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #18181a;
+}
+.container{
+    background-color: #242527;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+}
+.base{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+}
+.font1{
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.font2{
+    font-family: 'Roboto', sans-serif; 
+}
+.font3{
+    font-family: fantasy;
+}
+.font4{
+    font-family: 'Comfortaa', cursive;
+}
+.font5{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px 0px ;
+}
